@@ -5,20 +5,19 @@ App de carga determinística para o benchmark de celulares. Tem três cenários 
 ## 1. Instalação no projeto
 
 1. **Faça um commit/backup do projeto.**
-2. Apague os scripts antigos: `AutomatedPlayer`, `CameraStressSimulator`, `MovingObstacle`, `ObstacleManager`, `SpeedStageManager` e `VisualStressManager`. O código novo não depende deles.
-3. Copie a pasta `PerfBench/` inteira para dentro de `Assets/`.
-4. No Package Manager, confira se estes pacotes estão instalados. Normalmente já vêm como dependência do URP 17:
+2. Copie a pasta `PerfBench/` inteira para dentro de `Assets/`.
+3. No Package Manager, confira se estes pacotes estão instalados. Normalmente já vêm como dependência do URP 17:
    - **Burst** (`com.unity.burst`)
    - **Collections** (`com.unity.collections`)
    - **Mathematics** (`com.unity.mathematics`)
-5. Com a cena `game` aberta, rode o menu **PerfBench → 1. Configurar projeto e cena aberta**. Esse passo:
+4. Com a cena `game` aberta, rode o menu **PerfBench → 1. Configurar projeto e cena aberta**. Esse passo:
    - cria materiais, perfis `Scenario_light/medium/heavy` e o `BenchmarkConfig` em `Assets/PerfBench/Generated/`;
    - cria o objeto `PerfBench` com todos os módulos, já ligados à câmera, à luz e ao `player`;
    - desativa `ObstacleSpawner`, `pista` e o `Global Volume` antigo, porque o jogo cria os próprios;
    - ajusta o URP: Forward+, luzes adicionais por pixel, sombras adicionais e soft, GPU Resident Drawer desligado;
    - ajusta o Player: Frame Timing Stats ligado, retrato, IL2CPP, ARM64, Optimized Frame Pacing desligado, sem Development Build.
-6. Salve a cena (Ctrl+S) e dê Play. No editor o overlay aparece e os arquivos vão para `Application.persistentDataPath/perfbench/`.
-7. Leia o Console: qualquer ajuste que não pôde ser feito automaticamente aparece como aviso, e aí é só fazer à mão.
+5. Salve a cena (Ctrl+S) e dê Play. No editor o overlay aparece e os arquivos vão para `Application.persistentDataPath/perfbench/`.
+6. Leia o Console: qualquer ajuste que não pôde ser feito automaticamente aparece como aviso, e aí é só fazer à mão.
 
 > O Package Name ainda é o do template (`com.UnityTechnologies...urpblank`). Defina um id próprio em Player Settings → Identification, por exemplo `br.com.suaempresa.perfbench`.
 
