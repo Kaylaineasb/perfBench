@@ -1,0 +1,6 @@
+<linker>
+  <!-- RenderQualityModule ajusta resolução de sombra do URP Asset via reflection. -->
+  <assembly fullname="Unity.RenderPipelines.Universal.Runtime">
+    <type fullname="UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset" preserve="all" />
+  </assembly>
+</linker>

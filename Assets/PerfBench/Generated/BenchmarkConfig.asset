@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e43601e4acd691a478c6e657945724d5, type: 3}
+  m_Name: BenchmarkConfig
+  m_EditorClassIdentifier: Assembly-CSharp::PerfBench.BenchmarkConfig
+  profiles:
+  - {fileID: 11400000, guid: 40a409ffa0f4d1348b7b0562c65d892b, type: 2}
+  - {fileID: 11400000, guid: 32bff6114b3c9084eb4c39b68e04f2e2, type: 2}
+  - {fileID: 11400000, guid: 78a2919ea945daa479b6d2cc9e93a4ac, type: 2}
+  defaultSequence:
+  - light
+  - medium
+  - heavy
+  defaultStageSeconds: 180
+  defaultSeed: 42
+  defaultLoops: 1
+  defaultOverlay: 1
+  autoQuitOnFinish: 0
+  warmupSeconds: 3
+  firstRowDistance: 40

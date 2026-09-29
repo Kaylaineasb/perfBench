@@ -1,0 +1,64 @@
+# ===== Unity (gerado pelo editor, não versionar) =====
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Asset meta de pastas que não são versionadas
+/[Aa]ssets/AssetStoreTools*
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# ===== IDEs =====
+.vs/
+.vscode/
+.idea/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity gera estes metas para arquivos acima
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# ===== Crash reports / cache =====
+sysinfo.txt
+crashlytics-build.properties
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# ===== Builds Android =====
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.symbols.zip
+/[Aa]ssets/Plugins/Android/*.keystore
+*.keystore
+*.jks
+
+# ===== Resultados do benchmark (adb pull) =====
+/resultados/
+/perfbench/
+
+# ===== SO =====
+.DS_Store
+Thumbs.db
+desktop.ini

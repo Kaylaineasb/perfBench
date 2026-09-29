@@ -1,0 +1,18 @@
+# Arquivos do Unity como texto (merge melhor em cenas e prefabs)
+*.cs        text diff=csharp
+*.shader    text
+*.hlsl      text
+*.unity     text merge=unityyamlmerge eol=lf
+*.prefab    text merge=unityyamlmerge eol=lf
+*.asset     text merge=unityyamlmerge eol=lf
+*.mat       text merge=unityyamlmerge eol=lf
+*.meta      text merge=unityyamlmerge eol=lf
+*.controller text merge=unityyamlmerge eol=lf
+*.anim      text merge=unityyamlmerge eol=lf
+
+# Binários
+*.png  binary
+*.jpg  binary
+*.fbx  binary
+*.wav  binary
+*.mp3  binary

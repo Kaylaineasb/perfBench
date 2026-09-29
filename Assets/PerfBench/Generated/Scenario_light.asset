@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58b004a8a5087864cad404888a411f09, type: 3}
+  m_Name: Scenario_light
+  m_EditorClassIdentifier: Assembly-CSharp::PerfBench.ScenarioProfile
+  id: light
+  displayName: LEVE
+  worldSpeed: 15
+  obstacleSpacing: 30
+  renderMegapixels: 0.9
+  msaa: 1
+  hdr: 0
+  shaderAluIterations: 4
+  instancedCount: 300
+  instancedMeshSegments: 12
+  instancedCastShadows: 1
+  dynamicObjectCount: 20
+  dynamicObjectsBlink: 1
+  overdrawLayers: 0
+  overdrawAluIterations: 4
+  particleMax: 0
+  particleRate: 0
+  pointLights: 0
+  shadowedSpotLights: 0
+  mainShadowResolution: 1024
+  shadowCascades: 1
+  softShadows: 0
+  shadowDistance: 40
+  additionalShadowAtlasResolution: 1024
+  bloom: 0
+  bloomHighQuality: 0
+  depthOfField: 0
+  motionBlur: 0
+  colorGrading: 0
+  virtualCameraResolution: 0
+  virtualCameraInterval: 1
+  cpuJobElements: 0
+  cpuJobIterations: 64
+  physicsBodies: 0
+  gcPressureMBps: 0

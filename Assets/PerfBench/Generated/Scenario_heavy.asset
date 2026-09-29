@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58b004a8a5087864cad404888a411f09, type: 3}
+  m_Name: Scenario_heavy
+  m_EditorClassIdentifier: Assembly-CSharp::PerfBench.ScenarioProfile
+  id: heavy
+  displayName: PESADO
+  worldSpeed: 35
+  obstacleSpacing: 10
+  renderMegapixels: 3.7
+  msaa: 4
+  hdr: 1
+  shaderAluIterations: 128
+  instancedCount: 10000
+  instancedMeshSegments: 16
+  instancedCastShadows: 1
+  dynamicObjectCount: 800
+  dynamicObjectsBlink: 1
+  overdrawLayers: 12
+  overdrawAluIterations: 16
+  particleMax: 10000
+  particleRate: 4000
+  pointLights: 28
+  shadowedSpotLights: 4
+  mainShadowResolution: 4096
+  shadowCascades: 4
+  softShadows: 1
+  shadowDistance: 80
+  additionalShadowAtlasResolution: 4096
+  bloom: 1
+  bloomHighQuality: 1
+  depthOfField: 1
+  motionBlur: 1
+  colorGrading: 1
+  virtualCameraResolution: 2048
+  virtualCameraInterval: 1
+  cpuJobElements: 262144
+  cpuJobIterations: 64
+  physicsBodies: 600
+  gcPressureMBps: 8
